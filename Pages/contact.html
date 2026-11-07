@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HMS Clothing Store Website</title>
+    <link rel="icon" type="image/png" href="../Media/Images/LOGO.png">
+    <link rel="stylesheet"  href="../Style.css/style.css">
+    <script src="../js/script.js" defer></script>
+</head>
+<body>
+
+    <!-- Header section - Company logo, and Company name -->
+    <header class="main-header">
+        <img class="logo" src="../Media/Images/LOGO.png" alt="HMS Logo" width="100" height="100">
+        <h3>HMS Clothing Store</h3>
+        <!-- Navigation -->
+        <nav class="navbar">
+            <ul class="nav-links">
+               <li><a href="../index(shop).html">Home</a></li>
+              <li><a href="newarrivals.html">New Arrivals</a></li>
+               <li><a href="cart.html">Cart</a></li>
+               <li><a href="about.html">About Us</a></li>
+               <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <!-- Main content -->
+    <main>
+       
+        <!-- Heroes section (images, text, and videoes) -->
+        <section class="product-section">
+         <h1> Contact HMS Clothing Store </h1>
+         <p>Don't hesitate to get in touch with us - we'll be happy to talk to you!.
+        <br>Have a question about our clothing or orders?  We would love to hear from you!</p>
+        </section>
+
+        <div class="contact-container">
+            <section class="contact-info">
+                <h2>Contact Information</h2>
+
+                 <div class="info-item">
+                    <img src="../Media/Images/location.png"
+                  width="45" height="45" alt="Location">
+                 <div class="info-text">
+                     <strong>Location</strong>
+                     <p>Kitwe, Zambia</p>
+                     <small>Visit us at our clothing store.</small>
+                     </div>
+         </div>
+
+    <div class="info-item">
+        <img src="../Media/Images/phone2.png"
+             width="45" height="45" alt="Phone">
+        <div class="info-text">
+            <strong>Phone</strong>
+            <p><a href="tel:+260766316514">
+                +260766316514</a></p>
+            <small>Call us for enquiries and orders.</small>
+        </div>
+    </div>
+
+    <div class="info-item">
+        <img src="../Media/Images/email.jpg"
+             width="45" height="45" alt="Email">
+        <div class="info-text">
+            <strong>Email</strong>
+            <p><a href="mailto:heathersangambo@gmail.com">
+                heathersangambo@gmail.com</a></p>
+            <small>Send us your questions anytime.</small>
+        </div>
+    </div>
+
+    <div class="info-item">
+        <img src="../Media/Images/blackwhatsapp.png"
+             width="45" height="45" alt="WhatsApp">
+        <div class="info-text">
+            <strong>WhatsApp</strong>
+            <p><a href="https://wa.me/260766316514">
+                Chat with us on WhatsApp</a></p>
+            <small>Message us about available clothing.</small>
+        </div>
+    </div>
+
+    <div class="info-item">
+        <img src="../Media/Images/clock.jpg"
+             width="45" height="45" alt="Working hours">
+        <div class="info-text">
+            <strong>Working Hours</strong>
+            <p>Monday - Friday: 08:00 AM - 05:00 PM</p>
+            <p>Saturday: 08:00 AM - 01:00 PM</p>
+        </div>
+    </div>
+</section>  
+       
+        <section class="contact-form">
+        <!-- Contact Form -->
+         <h2>Send Us a Message</h2>
+         <form action="contact.php" method="post">
+            <div>
+            <label for="name">Fullname</label> <br>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            </div>
+
+            <br>
+            
+            <div>
+            <label for="email">Email Address</label> <br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+
+            <br>
+            
+            <div>
+            <label for="phone">Phone Number</label> <br>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="message">Your Message</label> <br>
+                <textarea name="message" id="message" rows="5" placeholder="Write your message here.."></textarea>
+            </div>
+
+            <br>
+             
+            <label for="rating">Rate Your Experience</label> <br>
+            <select name="rating" id="rating">
+                <option value="">Choose rating</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+            </select> <br>
+        <button type="submit">
+        Submit 
+       </button>
+       </form>
+
+       </section>
+
+       </div>
+
+    </main>
+    
+    <!-- Footer (copyrights, payment, socia media icons) -->
+     <footer>
+        <div class="footer-content">
+        <h4>HMS CLOTHING STORE</h4>
+        <p>HMS Fashions "Where Your Dreams of Fashion Become Reality.</p>
+        <p>Follow Us:</p>
+        <ul class="socials">
+            <li><a href="https://www.facebook.com/HMSClothingStore"><img src="../Media/Images/facebook.png" alt="facebook" width="25" height="25"></a></li>
+            <li><a href="https://www.instagram.com/"><img src="../Media/Images/instagram.png" alt="instagram" width="25" height="25"></a></li>
+            <li><a href="https://www.tiktok.com/"><img src="../Media/Images/tiktok.png" alt="tiktok" width="25" height="25"></a></li>
+            <li><a href="https://wa.me/260766316514"><img src="../Media/Images/whatsapp.png" alt="whatsapp" width="25" height="25"></a></li>
+        </ul>
+        </div>
+
+        <div class="footer-bottom">
+        <p>&copy; 2026 HMS Fashions. All Rights Reserved.</p>
+        </div>
+     </footer>
+</body>
+</html>

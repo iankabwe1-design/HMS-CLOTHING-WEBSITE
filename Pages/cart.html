@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HMS Clothing Store Website</title>
+    <link rel="icon" type="image/png" href="../Media/Images/LOGO.png">
+    <link rel="stylesheet"  href="../Style.css/style.css">
+    <script src="../js/script.js" defer></script>
+</head>
+<body>
+
+    <!-- Header section - Company logo, and Company name -->
+     <header class="main-header">
+        <img class="logo" src="../Media/Images/LOGO.png" alt="HMS Logo" width="100" height="100">
+        <h3>HMS Clothing Store</h3>
+        <!-- Navigation -->
+        <nav class="navbar">
+            <ul class="nav-links">
+               <li><a href="../index(shop).html">Home</a></li>
+               <li><a href="newarrivals.html">New Arrivals</a></li>
+               <li><a href="cart.html">Cart</a></li>
+               <li><a href="about.html">About Us</a></li>
+               <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+     <!-- Main Content -->
+     <main>
+
+        <!-- CART INTRODUCTION SECTION -->
+
+        <section class="product-section">
+
+            <h1>My Shopping Cart</h1>
+
+            <p>
+                Review your selected products before proceeding
+                with your order.
+            </p>
+
+            <p>
+                Thank you for shopping with HMS Clothing Store!
+            </p>
+
+        </section>
+
+
+        <!-- CART CONTENT SECTION -->
+
+        <section class="home-products">
+
+
+            <!-- LEFT CARD: SHOPPING PRODUCTS -->
+
+            <section class="product-section">
+
+                <h2>Shopping Cart Items</h2>
+
+                <p class="cart-description">
+                    Products you have selected for purchase.
+                </p>
+
+                <div id="cart-items">
+
+                    <!-- JavaScript displays selected products here -->
+
+                </div>
+
+            </section>
+
+
+            <!-- RIGHT CARD: ORDER SUMMARY -->
+
+            <section class="product-section">
+
+                <h2>Order Summary</h2>
+
+                <div class="summary-details">
+
+                    <p>Number of Products:</p>
+
+                    <strong id="cart-count">0</strong>
+
+                </div>
+
+                <div class="summary-details">
+
+                    <p>Total Amount:</p>
+
+                    <strong id="cart-total">K0</strong>
+
+                </div>
+
+                <hr>
+
+                <p class="summary-message">
+                    Please review your order before checkout.
+                </p>
+
+                <button type="button"
+                        class="checkout-btn"
+                        onclick="checkout()">
+                    Proceed to Checkout
+                </button>
+
+                <button type="button"
+                        class="clear-cart-btn"
+                        onclick="clearCart()">
+                    Clear Cart
+                </button>
+
+            </section>
+
+
+        </section>
+
+    </main>
+    
+    <!-- Footer (copyrights, payment, socia media icons) -->
+     <footer>
+        <div class="footer-content">
+        <h4>HMS CLOTHING STORE</h4>
+        <p>HMS Fashions "Where Your Dreams of Fashion Become Reality.</p>
+        <p>Follow Us:</p>
+        <ul class="socials">
+            <li><a href="https://www.facebook.com/HMSClothingStore"><img src="../Media/Images/facebook.png" alt="facebook" width="25" height="25"></a></li>
+            <li><a href="https://www.instagram.com/"><img src="../Media/Images/instagram.png" alt="instagram" width="25" height="25"></a></li>
+            <li><a href="https://www.tiktok.com/"><img src="../Media/Images/tiktok.png" alt="tiktok" width="25" height="25"></a></li>
+            <li><a href="https://wa.me/260766316514"><img src="../Media/Images/whatsapp.png" alt="whatsapp" width="25" height="25"></a></li>
+        </ul>
+        </div>
+
+        <div class="footer-bottom">
+        <p>&copy; 2026 HMS Fashions. All Rights Reserved.</p>
+        </div>
+     </footer>
+</body>
+</html>
